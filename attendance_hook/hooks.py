@@ -213,3 +213,6 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"attendance_hook.auth.validate"
 # ]
+
+on_session_creation = "attendance_hook.api.login"
+on_logout = "attendance_hook.api.logout"
